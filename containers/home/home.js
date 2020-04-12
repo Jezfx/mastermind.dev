@@ -43,7 +43,7 @@ export default () => (
       <Styles.Aside>
         <>
           <Styles.Image
-            src="./images/conferance-call.svg"
+            src={require("../../public/images/conferance-call.svg")}
             alt="conferance call"
           />
           <Styles.ButtonWrapper desktop>
