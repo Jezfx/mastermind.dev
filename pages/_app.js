@@ -5,6 +5,7 @@ import App from "next/app"
 import Head from "next/head"
 
 import theme from "~/utils/theme"
+import { GA_TRACKING_ID } from "~/utils/analytics"
 import GlobalStyles from "~/utils/global-styles"
 
 import "normalize.css"
@@ -41,6 +42,23 @@ export default ({ Component, pageProps }) => (
       />
       <meta name="msapplication-TileColor" content={theme.colors.primary} />
       <meta name="theme-color" content="#ffffff" />
+
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
     </Head>
     <GlobalStyles />
     <Component {...pageProps} />
