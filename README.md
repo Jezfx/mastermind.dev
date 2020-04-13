@@ -1,6 +1,6 @@
 # [mastermind.dev](http://mastermind.dev) ✨
 
-Sideproject which I'd like to start up. It'll eventually be a platform for developers to find small, niche [mastermind groups](https://en.wikipedia.org/wiki/Mastermind_group) for developers to share ideas, knowledge and teach. Its a good excercise for developers to go out and learn something new to input into the group, and also good for learning new skills from the others.
+Sideproject which I'd like to start up. It'll eventually be a platform for developers to find small, niche, virtual [mastermind groups](https://en.wikipedia.org/wiki/Mastermind_group) for developers to share ideas, knowledge and teach. Its a good excercise for developers to go out and learn something new to input into the group, and also good for learning new skills from the others.
 
 ## Open for help
 
