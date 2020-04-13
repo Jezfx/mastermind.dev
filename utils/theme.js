@@ -1,16 +1,11 @@
 export const colors = {
   black: "#161617",
-  // black: "#fff",
-
-  // pink
-  // primary: "#ea4c89",
-
-  // pink
-  // primary: "#ff7b91",
-  // pink
-
   primary: "#71BAC6",
 }
+
+// Try these colours to make it less dullish
+// Blue: #0056d3
+// Orange: #ff8562
 
 export const breakpoints = {
   small: "576px",
