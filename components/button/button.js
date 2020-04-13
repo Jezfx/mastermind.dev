@@ -3,4 +3,6 @@ import { Header } from "~/components/typography/"
 
 import * as Styles from "./button.styles"
 
-export default ({ children }) => <Styles.Container>{children}</Styles.Container>
+export default (props) => (
+  <Styles.Container {...props}>{props.children}</Styles.Container>
+)
