@@ -56,7 +56,7 @@ export const ButtonWrapper = styled.div`
 `}
 `
 
-export const Image = styled.img`
+export const Image = styled.svg`
   display: none;
   width: 100%;
   max-width: 510px;
