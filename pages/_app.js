@@ -37,9 +37,9 @@ export default ({ Component, pageProps }) => (
       <link
         rel="mask-icon"
         href="/images/favicon/safari-pinned-tab.svg"
-        color="#71bac6"
+        color={theme.colors.primary}
       />
-      <meta name="msapplication-TileColor" content="#71bac6" />
+      <meta name="msapplication-TileColor" content={theme.colors.primary} />
       <meta name="theme-color" content="#ffffff" />
     </Head>
     <GlobalStyles />
