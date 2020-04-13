@@ -261,7 +261,9 @@ export default () => (
             <circle cx="420.92645" cy="340.42412" r="12.80115" fill="#2f2e41" />
           </Styles.Image>
           <Styles.ButtonWrapper desktop>
-            <Button>{Constants.buttonText}</Button>
+            <Button as="a" href="https://jez621752.typeform.com/to/dpckgs">
+              {Constants.buttonText}
+            </Button>
           </Styles.ButtonWrapper>
         </>
       </Styles.Aside>
